@@ -1,0 +1,839 @@
+/*navigation*/
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1 1 0;
+}
+
+#outermenu {
+    width: 20px;
+    padding: 0px;
+}
+
+#logo div a {
+    margin: auto;
+    display: inline-flex;
+}
+
+.squares {
+    justify-content: center;
+    display: flex;
+    float: left;
+}
+
+.squares div {
+    background-color: black;
+    padding: 15px;
+    justify-content: center;
+    align-content: center;
+}
+button:focus{
+    outline:none;
+  }
+    a:focus{
+    outline:none;
+  }
+nav {
+    width: 100%;
+    background-color: #222;
+    padding-top: 10px;
+}
+
+#logo a img {
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo div {
+    align-content: center;
+    text-align: center;
+    display: block;
+}
+
+#logo {
+    align-content: center;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+
+/*body*/
+
+body {
+    width: 100%;
+    background-color: #222;
+}
+
+.container-fluid {
+    background-color: #222;
+    height: 100vh;
+    position: relative;
+    padding: 0px;
+}
+
+
+/*section*/
+
+#one {
+    position: absolute;
+    width: 15px;
+    top: 70%;
+    left: 45%;
+}
+
+#two {
+    position: absolute;
+    top: 53%;
+    left: 8%;
+}
+
+#three {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+
+#four {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+
+#five {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+#six {
+    position: absolute;
+    top: 75%;
+    left: 95%;
+}
+
+#seven {
+    position: absolute;
+    top: 90%;
+    left: 4%;
+}
+
+#eight {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+}
+
+#nine {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+#ten {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+#eleven {
+    position: fixed;
+    left: 80%;
+    bottom: 80px;
+    animation: 18s drive ease infinite alternate;
+}
+
+#eleven img {
+    width: 200px;
+}
+
+@keyframes drive {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+#scene {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#home {
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0);
+}
+
+#home:after {
+    opacity: 1;
+}
+
+.modal-dialog {
+    margin: 0;
+    height: 50%;
+    width: 300px;
+    float: right;
+}
+
+.modal-content {
+    margin: 0;
+    padding: 0;
+    background-color: #181D27;
+    top: 26vh;
+    background-color: rgba(128, 128, 128, 0);
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    border: none;
+    width: 300px;
+    float: right;
+}
+
+.modal-content li {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    align-content: flex-end;
+    text-align: right;
+}
+
+.modal-content ul {
+    align-content: flex-end;
+    text-align: right;
+}
+
+#flat-button {
+    color: #1b91fb;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    padding: 6px 10px;
+    border: 1px solid #1b91fb;
+    margin: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#flat-button:hover {
+    background-color: deepskyblue;
+    color: #222;
+}
+
+button {
+    background-color: rgba(128, 128, 128, 1);
+}
+
+#words div {
+    opacity: 1;
+    align-content: center;
+    text-align: center;
+    padding: auto;
+}
+
+button span {
+    background-color: rgba(128, 128, 128, 0);
+    color: ghostwhite;
+}
+
+#contact {
+    margin-right: 32px;
+}
+
+#work {
+    margin-right: 47px;
+    padding-top: 3px;
+}
+
+#about {
+    margin-right: 9px;
+    margin-top: -15px;
+}
+
+#words {
+    margin-left: 50px;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    z-index: 1000;
+    backface-visibility: hidden;
+    background-color: transparent;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 2px;
+}
+
+#words img {
+    width: 30px;
+    z-index: 9999;
+    padding: auto;
+    margin: auto;
+    align-content: center;
+}
+
+#left {
+    color: whitesmoke;
+    text-align: right;
+    list-style: none;
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    padding-right: 20px;
+    animation: drive7 16s linear infinite alternate;
+}
+
+#right {
+    width: 200px;
+    color: whitesmoke;
+    text-align: left;
+    list-style: none;
+    font-size: 20px;
+    height: 40px;
+    margin-left: -20px;
+    animation: drive8 16s linear infinite alternate;
+}
+
+#left li {
+    height: 40px;
+}
+
+#right li {
+    height: 40px;
+}
+
+@keyframes drive7 {
+    0% {
+        transform: translateY(0px);
+    }
+    12.5% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-40px);
+    }
+    37.5% {
+        transform: translateY(-40px);
+    }
+    50% {
+        transform: translateY(-80px);
+    }
+    62.5% {
+        transform: translateY(-80px);
+    }
+    75% {
+        transform: translateY(-120px);
+    }
+    87.5% {
+        transform: translateY(-120px);
+    }
+    100% {
+        transform: translateY(-120px);
+    }
+}
+
+@keyframes drive8 {
+    0% {
+        transform: translateY(-120px);
+    }
+    12.5% {
+        transform: translateY(-120px);
+    }
+    25% {
+        transform: translateY(-80px);
+    }
+    37.5% {
+        transform: translateY(-80px);
+    }
+    50% {
+        transform: translateY(-40px);
+    }
+    62.5% {
+        transform: translateY(-40px);
+    }
+    75% {
+        transform: translateY(0px);
+    }
+    87.5% {
+        transform: translateY(0px);
+    }
+}
+
+#Experience {
+  display:inline-block;
+    position: absolute;
+    top:33%;
+    margin-left: 18%;
+    color: deepskyblue;
+    z-index: 2000;
+   width:50%;
+}
+
+#Experience p {
+    position: relative;
+    color: ghostwhite;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    padding-left: 5%;
+    width: 100%;
+}
+
+#Experience h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    padding-bottom: 6px;
+    width:50%;
+    height:96px;
+    display:inline-block;
+}
+
+strong {
+    font-size: 2.2rem;
+}
+span3{
+  font-size: 2.2rem;
+  font-weight:600;
+  color: ghostwhite;
+}
+span2{
+  position: absolute;
+  display:inline-block;
+  width:232px;
+  padding-top:1px;
+}
+span5{
+  display:inline-block;
+  width:100%;
+  padding-bottom:5px;
+}
+#skillset {
+    position: relative;
+    display: inline-block;
+    top: 25%;
+    float: right;
+    width: 30%;
+    height: 331px;
+    z-index: 10;
+    margin-right: 14%;
+}
+
+#display {
+    height: 70%;
+}
+
+#bottom {
+    display: inline-block;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    margin-left: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#skillname li {
+    width: 100%;
+    list-style: none;
+    color: ghostwhite;
+    text-align: right;
+    height: 50px;
+    padding-top: 12px;
+    float: left;
+}
+
+#skillname {
+    display: inline-block;
+    width: 100%;
+    font-size: 2.5rem;
+    padding-left: 0px;
+    float: left;
+    margin-left: 18px;
+}
+
+.progressc {
+    width: 100%;
+    height: 50px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    border: none;
+    display: inline-block;
+}
+
+#score {
+    width: 20%;
+    font-size: 20px;
+    color: ghostwhite;
+    padding-top: 5px;
+    padding-right: 10px;
+    float: left;
+}
+
+#rotate {
+    z-index: -1000;
+    display: none;
+}
+
+#bar {
+    position: absolute;
+    height: 5px;
+    width: 40%;
+    border-radius: 10px;
+    bottom: 12px;
+    background-color: #777;
+}
+
+.bar {
+    height: 100%;
+    width: 97%;
+    background-color: #FF3662;
+}
+
+#names {
+    position: absolute;
+    display: inline-block;
+    width: 30%;
+}
+
+#progress {
+    display: inline-block;
+    height: 50px;
+    width: 60%;
+    float: right;
+    z-index: 999999;
+}
+
+#top {
+    height: 226px;
+    width: 100%;
+}
+
+#leftb {
+    padding-top: 150px;
+    height: 100%;
+    float: left;
+}
+
+#leftb img {
+    height: 50px;
+}
+
+#rightb {
+    height: 100%;
+    padding-top: 150px;
+    float: right;
+}
+
+#rightb img {
+    height: 50px;
+}
+
+#disappear {
+    position: absolute;
+    z-index: 9999999;
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+}
+
+#disappear svg {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 200px;
+    top: 0;
+    z-index: 88888;
+}
+
+#skill-im img {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 150px;
+    top: 0;
+    opacity: 0;
+}
+
+#skill-im img:first-child {
+    opacity: 1;
+}
+
+.coloo {
+    animation: colo 0.3s linear normal;
+}
+#elements{
+  width: 100%;
+  height: 100%;
+  top:0;
+  position: absolute;
+  z-index:-10;
+}
+.loader-wrapper {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    z-index: 99999999999999;
+}
+
+.loader svg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#dcir {
+    opacity: 0;
+    transform-origin: 22px 22px;
+}
+
+#splash {
+    opacity: 0;
+    transform-origin: 25px 25px;
+}
+
+#leftb button {
+    border: 0px
+}
+
+.size {
+    animation: size 0.2s linear normal;
+}
+
+@keyframes size {
+    from {
+        opacity: 1;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes colo {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+}
+
+#i1 {
+    opacity: 1;
+}
+
+button {
+    background-color: transparent;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 999999999;
+}
+
+#home svg,
+#about svg,
+#skills svg,
+#work svg {
+    cursor: pointer;
+}
+
+@media (max-width:1200px) {
+    #skillset {
+        display: none;
+    }
+    #Experience{
+      width: 100%;
+    }
+}
+
+@media (max-width:1000) {
+    #scene {
+        height: 100%;
+    }
+    #eleven {
+        left: 80%;
+        bottom: 75px;
+    }
+    #eleven img {
+        width: 180px;
+    }
+}
+
+
+@media (max-width:800px) {
+    #scene {
+        height: 100%;
+    }
+    #eleven {
+        left: 70%;
+        bottom: 60px;
+    }
+    #six {
+        top: 85%;
+        left: 90%;
+    }
+    #eleven img {
+        width: 150px;
+    }
+}
+
+@media (max-width:700px) {
+    #eleven {
+        left: 70%;
+        bottom: 60px;
+        display: none;
+    }
+    #six {
+        top: 90%;
+        left: 70%;
+    }
+    #eleven img {
+        width: 140px;
+    }
+    .squares div {
+        margin-left: 49px;
+    }
+}
+
+@media (max-width:451px) {
+  #Experience{
+    top: 27%;
+    margin-left: 7%;
+  }
+  #Experience h1{
+     padding-bottom:89px;
+     width: 100%; 
+     font-size: 37px;
+     height: 89px;
+  }
+  #Experience p{
+    width: 340px;
+  }
+    #words {
+        margin-left: -40px;
+        bottom: 1%;
+        height: 30px;
+    }
+    #logo {
+        margin-left: 22px;
+    }
+    #left,
+    #right {
+        font-size: 15px;
+    }
+    .loader svg {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 400px;
+        margin-left: -20px;
+    }
+    #scene {
+        height: 100%;
+    }
+    #eleven {
+        left: 38%;
+        display: none;
+    }
+    #words img {
+        width: 21px;
+    }
+    #logo a {
+        margin-left: -50% !important;
+    }
+    #six {
+        display: none;
+    }
+    #eleven img {
+        width: 130px;
+    }
+    #eleven {
+        bottom: 60px;
+        left: 70%;
+    }
+    #skillset {
+        display: inline-block;
+        opacity: 0.6;
+        width: 70%;
+        top: 57%;
+        margin-right: -12%;
+    }
+    #bottom {
+        bottom: 70px;
+        margin-left: -26px;
+    }
+    #skill-im img {
+        width: 100px;
+    }
+    #leftb,
+    #rightb,#names {
+        display: none;
+    }
+    .loader svg {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 400px;
+        margin-left: -20px;
+    }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+    #rotate {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #222;
+        opacity: 1;
+        z-index: 999999999;
+        display: block;
+        top: 0;
+    }
+    #rotate img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #hi {
+        display: none;
+    }
+}

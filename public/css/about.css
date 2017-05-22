@@ -1,0 +1,670 @@
+/*navigation*/
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1 1 0;
+}
+
+#outermenu {
+    width: 20px;
+    padding: 0px;
+}
+
+#logo div a {
+    margin: auto;
+    display: inline-flex;
+}
+
+.squares {
+    justify-content: center;
+    display: flex;
+    float: left;
+}
+
+.squares div {
+    background-color: black;
+    padding: 15px;
+    justify-content: center;
+    align-content: center;
+}
+button:focus{
+    outline:none;
+  }
+    a:focus{
+    outline:none;
+  }
+nav {
+    width: 100%;
+    background-color: #222;
+    padding-top: 10px;
+    z-index: 10;
+}
+
+#logo a img {
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo div {
+    align-content: center;
+    text-align: center;
+    display: block;
+}
+
+#logo {
+    align-content: center;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+
+/*body*/
+
+body {
+    width: 100%;
+    background-color: #222;
+}
+
+.container-fluid {
+    background-color: #222;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+
+/*section*/
+
+#one {
+    position: absolute;
+    width: 15px;
+    top: 70%;
+    left: 70%;
+}
+
+#two {
+    position: absolute;
+    top: 53%;
+    left: 8%;
+}
+
+#three {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+
+#four {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+
+#five {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+#six {
+    position: absolute;
+    top: 75%;
+    left: 95%;
+}
+
+#seven {
+    position: absolute;
+    top: 90%;
+    left: 4%;
+}
+
+#eight {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+#nine {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+#ten {
+    position: absolute;
+    top: 18%;
+    left: 45%;
+}
+
+#eleven {
+    position: fixed;
+    left: 80%;
+    bottom: 70px;
+    animation: 18s drive ease infinite alternate;
+}
+
+#eleven img {
+    width: 200px;
+}
+
+@keyframes drive {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+#scene {
+    position: absolute;
+    width: 95%;
+    height: 99%;
+    z-index: 1;
+}
+
+#intro {
+    top: 35%;
+    left: 15%;
+    z-index: 100;
+    position: absolute;
+    height: 20vh;
+    background-color: transparent;
+}
+
+#aboutme h1 {
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    color: deepskyblue;
+    font-size: 5rem;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: #8d8d8d;
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 2rem;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 3px;
+    -webkit-animation: myanim2 1s 2.5s backwards;
+    animation: myanim2 1s 2.5s backwards;
+}
+
+#home {
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0);
+}
+
+#home:after {
+    opacity: 1;
+}
+
+.modal-dialog {
+    margin: 0;
+    height: 50%;
+    width: 300px;
+    float: right;
+}
+
+.modal-content {
+    margin: 0;
+    padding: 0;
+    background-color: #181D27;
+    top: 26vh;
+    background-color: rgba(128, 128, 128, 0);
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    border: none;
+    width: 300px;
+    float: right;
+}
+
+.modal-content li {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    align-content: flex-end;
+    text-align: right;
+}
+
+.modal-content ul {
+    align-content: flex-end;
+    text-align: right;
+}
+
+#flat-button {
+    color: #1b91fb;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    padding: 6px 10px;
+    border: 1px solid #1b91fb;
+    margin: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#flat-button:hover {
+    background-color: deepskyblue;
+    color: #222;
+}
+
+button {
+    background-color: rgba(128, 128, 128, 1);
+}
+
+div {
+    opacity: 1;
+}
+
+button span {
+    background-color: rgba(128, 128, 128, 0);
+    color: ghostwhite;
+}
+
+#contact {
+    margin-right: 32px;
+}
+
+#work {
+    margin-right: 47px;
+    padding-top: 3px;
+}
+
+#about {
+    margin-right: 9px;
+    margin-top: -15px;
+}
+
+.about {
+    position: absolute;
+    width: 90%;
+    top: 31%;
+    left: 5%;
+    z-index: 99999;
+    background: unset;
+    height: 300px;
+    display: table-cell;
+    padding: 0px;
+}
+
+p {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    color: ghostwhite;
+    font-family: 'Roboto', sans-serif;
+    z-index: 500;
+    font-size: 1.5rem;
+    padding-bottom: 3px;
+}
+
+#home svg {
+    cursor: pointer;
+}
+
+#about svg {
+    cursor: pointer;
+}
+
+#skills svg {
+    cursor: pointer;
+}
+
+#work svg {
+    cursor: pointer;
+}
+
+#hi {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    width: 400px;
+    margin-left: 18%;
+    margin-top: 5%;
+    float: left
+}
+
+#hi div {
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin: 0px;
+    width: 80px;
+    height: 80px;
+    padding: 25px;
+    z-index: 200;
+}
+
+#hi img {
+    width: 30px;
+    height: 30px;
+}
+
+#log1 {
+    background-color: #1ABC9C;
+}
+
+#log2 {
+    background-color: #34495E;
+}
+
+#log3 {
+    background-color: #F39C12;
+}
+
+#log4 {
+    background-color: #3498DB;
+    padding: 0px!important;
+    padding-left: 15px!important;
+    padding-top: 25px!important;
+}
+
+#log4 img {
+    width: 50px;
+}
+
+#log5 {
+    background-color: #8E44AD;
+}
+
+#log7 {
+    background-color: #E74C3C;
+}
+
+#log6 {
+    background-color: darkslateblue;
+}
+
+#log8 {
+    background-color: #2ECC71;
+    padding: 0px!important;
+    padding-left: 15px!important;
+    padding-top: 25px!important;
+}
+
+#log8 img {
+    width: 50px;
+}
+
+#log9 {
+    background-color: #F1C40F;
+}
+
+#aboutme {
+    width: 50%;
+    display: block;
+    top:9%;
+    left:2%;
+}
+
+#log5 svg {
+    position: absolute;
+    width: 50px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#log3 svg {
+    position: absolute;
+    width: 50px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#log4 svg {
+    position: absolute;
+    width: 50px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.loader-wrapper {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    z-index: 99999999999999;
+}
+
+.loader svg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#elements {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+#rotate {
+    z-index: -1000;
+    display: none;
+}
+@media (max-width:1461px) {
+    #hi {
+        display:none;
+    }
+    #aboutme{
+        width:60%;
+    }
+}
+@media (max-width:1170px) {
+    #hi {
+        margin-left: 2%;
+    }
+}
+
+@media (max-width:1000px) {
+    .about {
+        top: 17%;
+    }
+    #aboutme {
+        width: 80%;
+        top:45%;
+    }
+    #aboutme h1 {
+        font-size: 4rem;
+    }
+    #scene {
+        height: 100%;
+    }
+    #eleven {
+        left: 40%;
+        display: none;
+    }
+    #hi {
+        margin-top: 3%;
+    }
+}
+
+@media (max-width:800px) {
+    .about {
+        top: 15%;
+        width: 100%;
+    }
+    #aboutme {
+        width: 95%;
+        padding-right: 5%;
+    }
+    #h1 {
+        width: 100%;
+    }
+    #scene {
+        height: 100%;
+    }
+    #eleven {
+        left: 40%;
+    }
+    #logo a {
+        margin-left: -50% !important;
+    }
+    #six {
+        top: 90%;
+        left: 70%;
+    }
+}
+
+@media (max-width:700px) {
+    .about {
+        top: 30%;
+        width: 97%;
+        left: 0;
+        padding-left: 3%;
+    }
+    #aboutme {
+        width: 100%;
+        top:6%;
+    }
+    #h1 {
+        width: 100%;
+    }
+    #hi {
+        display: none;
+    }
+    #scene {
+        height: 100%;
+    }
+    #eleven {
+        left: 70%;
+        display: inline-block;
+        bottom: 54px;
+    }
+    #logo a {
+        margin-left: -50% !important;
+    }
+    #six {
+        top: 90%;
+        left: 70%;
+    }
+    #aboutme h1 {
+        padding-bottom: 5px;
+        font-size: 3.5rem;
+    }
+    #eleven img {
+        width: 140px;
+    }
+}
+
+@media (max-width:451px) {
+    .loader svg {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 400px;
+        margin-right: -10px;
+    }
+    .about {
+        top: 22%;
+        width: 100%;
+        left: 3px;
+    }
+    #aboutme {
+        width: 95%;
+        padding-right: 4%;
+    }
+    #aboutme h1 {
+        padding-bottom: 5px;
+    }
+    #hi {
+        display: none;
+    }
+    #scene {
+        height: 100%;
+        margin-left: 0px;
+        width: 100%;
+    }
+    #eleven {
+        left: 40%;
+        display: none;
+    }
+    #logo a {
+        margin-left: -50% !important;
+    }
+    #six {
+        top: 90%;
+        left: 70%;
+    }
+    #aboutme h1 {
+        font-size: 4rem;
+    }
+    #eleven img {
+        width: 100px;
+    }
+    #eleven {
+        top: 95%;
+        left: 70%;
+    }
+    #hi div {
+        display: none;
+    }
+    #log3,
+    #log4,
+    #log5 {
+        display: inline-block!important;
+        margin-left: 100px;
+    }
+    #hi {
+        margin-left: 50px;
+        margin-top: 9%;
+    }
+    .modal-content {
+        margin-right: 21px;
+    }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+    #rotate {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #222;
+        opacity: 1;
+        z-index: 999999999;
+        display: block;
+    }
+    #rotate img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #hi {
+        display: none;
+    }
+}

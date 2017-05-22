@@ -1,0 +1,467 @@
+/*navigation*/
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1 1 0;
+}
+
+#outermenu {
+    width: 20px;
+    padding: 0px;
+}
+
+#logo div a {
+    margin: auto;
+    display: inline-flex;
+}
+
+.squares {
+    justify-content: center;
+    display: flex;
+    float: left;
+}
+
+.squares div {
+    background-color: black;
+    padding: 15px;
+    justify-content: center;
+    align-content: center;
+}
+
+nav {
+    width: 100%;
+    background-color: #222;
+    padding-top: 10px;
+}
+
+#logo a img {
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo div {
+    align-content: center;
+    text-align: center;
+    display: block;
+}
+
+#logo {
+    align-content: center;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+
+/*body*/
+
+body {
+    width: 100%;
+    background-color: #222;
+}
+
+.container-fluid {
+    background-color: #222;
+    height: 100vh;
+    position: relative;
+    padding: 0px;
+}
+
+
+/*section*/
+
+#one {
+    position: absolute;
+    width: 15px;
+    top: 70%;
+    left: 70%;
+}
+
+#two {
+    position: absolute;
+    top: 53%;
+    left: 8%;
+}
+
+#elements {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+#rotate {
+    z-index: -1000;
+    display: none;
+}
+
+#three {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+
+#four {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+
+#five {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+#six {
+    position: absolute;
+    top: 75%;
+    left: 95%;
+}
+
+#seven {
+    position: absolute;
+    top: 90%;
+    left: 4%;
+}
+
+#eight {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+}
+
+#nine {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+#ten {
+    position: absolute;
+    top: 18%;
+    left: 45%;
+}
+
+#eleven {
+    position: fixed;
+    left: 80%;
+    bottom: 70px;
+    animation: 18s drive ease infinite alternate;
+}
+
+#eleven img {
+    width: 200px;
+}
+
+@keyframes drive {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+#scene {
+    width: 95%;
+    height: 99%;
+}
+
+#intro {
+    top: 35%;
+    left: 15%;
+    z-index: 100;
+    position: absolute;
+    height: 20vh;
+    background-color: transparent;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: ghostwhite;
+    font-size: 4rem;
+}
+
+h2 {
+    color: #8d8d8d;
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 2rem;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 3px;
+    -webkit-animation: myanim2 1s 2.5s backwards;
+    animation: myanim2 1s 2.5s backwards;
+}
+
+#home {
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0);
+}
+
+#home:after {
+    opacity: 1;
+}
+
+.modal-dialog {
+    margin: 0;
+    height: 50%;
+    width: 300px;
+    float: right;
+    background-color: #181D27;
+    background-color: rgba(128, 128, 128, 0);
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+}
+
+.modal-content {
+    margin: 0;
+    padding: 0;
+    background-color: #181D27;
+    top: 26vh;
+    background-color: rgba(128, 128, 128, 0);
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    border: none;
+    width: 300px;
+    float: right;
+}
+
+.modal-content li {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    align-content: flex-end;
+    text-align: right;
+}
+
+.modal-content ul {
+    align-content: flex-end;
+    text-align: right;
+}
+
+#flat-button {
+    color: deepskyblue;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    padding: 6px 10px;
+    border: 1px solid #1b91fb;
+    margin: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#flat-button:hover {
+    background-color: #1b91fb;
+    color: #222;
+}
+
+button {
+    background-color: rgba(128, 128, 128, 1);
+}
+  button:focus{
+    outline:none;
+  }
+    a:focus{
+    outline:none;
+  }
+div {
+    opacity: 1;
+}
+
+button span {
+    background-color: rgba(128, 128, 128, 0);
+    color: ghostwhite;
+}
+
+.loader-wrapper {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    z-index: 99999999999999;
+}
+
+.loader svg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#contact {
+    margin-right: 32px;
+}
+
+#work {
+    margin-right: 47px;
+    padding-top: 3px;
+}
+
+#about {
+    margin-right: 9px;
+    margin-top: -15px;
+}
+
+@media (max-width:1170px) {
+    #hi {
+        margin-left: 2%;
+    }
+    #intro {
+        top: 30%;
+    }
+}
+
+#home svg,
+#about svg,
+#skills svg,
+#work svg {
+    cursor: pointer;
+}
+
+@media (max-width:1000px) {
+    #scene {
+        height: 100%;
+    }
+    #eleven {
+        left: 70%;
+        bottom: 75px;
+    }
+    #intro {
+        top: 30%;
+    }
+    #eleven img {
+        width: 180px;
+    }
+}
+
+@media (max-width:800px) {
+    #scene {
+        height: 100%;
+    }
+    #eleven {
+        left: 70%;
+        bottom: 60px;
+    }
+    #six {
+        top: 85%;
+        left: 90%;
+    }
+    #eleven img {
+        width: 150px;
+    }
+}
+
+@media (max-width:700px) {
+    #eleven {
+        left: 70%;
+        bottom: 60px;
+    }
+    #six {
+        top: 90%;
+        left: 70%;
+    }
+    #aboutme h1 {
+        padding-bottom: 5px;
+        font-size: 3.5rem;
+    }
+    #eleven img {
+        width: 140px;
+    }
+    h1 {
+        font-size: 3.4rem;
+    }
+    .squares div {
+        margin-left: 49px;
+    }
+}
+
+@media (max-width:451px) {
+    #logo {
+        margin-left: 22px;
+    }
+    #intro {
+        left: 7%;
+    }
+    .loader svg {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 400px;
+        margin-left: -20px;
+    }
+    #scene {
+        height: 100%;
+    }
+    #eleven {
+        left: 38%;
+    }
+    #logo a {
+        margin-left: -50% !important;
+    }
+    #six {
+        top: 90%;
+        left: 70%;
+    }
+    #eleven img {
+        width: 130px;
+    }
+    #eleven {
+        bottom: 60px;
+        left: 70%;
+    }
+    h1 {
+        font-size: 3.2rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    #intro {
+        top: 35%;
+    }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+    #rotate {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #222;
+        opacity: 1;
+        z-index: 999999999;
+        display: block;
+        top: 0;
+    }
+    #rotate img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #hi {
+        display: none;
+    }
+}

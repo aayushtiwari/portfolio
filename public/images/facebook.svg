@@ -1,0 +1,28 @@
+<svg id="fac" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 107.21466 107.216">
+  <path id="fac1" d="M-.0000029 53.60799627c0-29.60799926 23.9999994-53.60799866 53.60799867-53.60799866 29.60666593 0 53.60666533 23.9999994 53.60666533 53.60799867 0 29.60666593-23.9999994 53.60799866-53.60666533 53.60799866-29.60799926 0-53.60799866-24.00133273-53.60799866-53.60799866" fill="#324581"/>
+  <path id="fac2" d="M67.19199543 53.62866294h-8.88399978v31.68533254H45.13599598V53.62866294h-6.26399984V42.43532988h6.26399984V35.1926634c0-5.17999987 2.45999994-13.29066634 13.289333-13.29066634l9.75599976.04133334v10.86399972h-7.0786665c-1.16266663 0-2.7946666.58133332-2.7946666 3.05199993v6.5866665h10.03466643l-1.15066664 11.1826664" fill="#f4f5f5"/>
+  <style>
+#fac1,#fac2{
+  -webkit-transform-origin:50% 50% ;
+  -moz-transform-origin:50% 50% ;
+  -ms-transform-origin:50% 50% ;
+  -o-transform-origin:50% 50% ;
+  transform-origin:50% 50% ;
+  transition:all 0.5s;
+}
+#fac:hover #fac1{
+-webkit-transform: scale(0.9);
+-ms-transform: scale(0.9);
+-o-transform: scale(0.9);
+transform: scale(0.9);
+}
+#fac:hover #fac2{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+-o-transform: scale(1.2);
+transform: scale(1.2);
+}
+
+</style>
+
+</svg>

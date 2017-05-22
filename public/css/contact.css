@@ -1,0 +1,638 @@
+/*navigation*/
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+input:focus {
+    outline: none;
+}
+
+nav ul li {
+    flex: 1 1 0;
+}
+
+#outermenu {
+    width: 20px;
+    padding: 0px;
+}
+
+#logo div a {
+    margin: auto;
+    display: inline-flex;
+}
+
+.squares {
+    justify-content: center;
+    display: flex;
+    float: left;
+}
+
+.squares div {
+    background-color: black;
+    padding: 15px;
+    justify-content: center;
+    align-content: center;
+}
+
+nav {
+    width: 100%;
+    background-color: #222;
+    padding-top: 10px;
+}
+
+#alert {
+    color: ghostwhite;
+    width: 340px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+    overflow: hidden;
+    padding-left: 340px;
+    opacity: 0;
+}
+
+#alertt {
+    background-color: #000;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 16px;
+    width: 340px;
+}
+
+#alert2 {
+    color: ghostwhite;
+    width: 340px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+    overflow: hidden;
+    padding-left: 340px;
+}
+
+#alertt2 {
+    background-color: #000;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 16px;
+    width: 340px;
+}
+
+#logo a img {
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo div {
+    align-content: center;
+    text-align: center;
+    display: block;
+}
+
+#logo {
+    align-content: center;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+a:focus{
+  outline:none;
+}
+/*body*/
+
+body {
+    width: 100%;
+    background-color: #222;
+}
+
+.container-fluid {
+    background-color: #222;
+    height: 100vh;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+}
+
+  button:focus{
+    outline:none;
+  }
+/*section*/
+
+#scene {
+    width: 100%;
+    height: 100%;
+}
+
+#home {
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0);
+}
+
+#home:after {
+    opacity: 1;
+}
+
+.modal-dialog {
+    margin: 0;
+    height: 50%;
+    width: 300px;
+    float: right;
+}
+
+.modal-content {
+    margin: 0;
+    padding: 0;
+    background-color: #181D27;
+    top: 26vh;
+    background-color: rgba(128, 128, 128, 0);
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    border: none;
+    width: 300px;
+    float: right;
+}
+
+.modal-content li {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    align-content: flex-end;
+    text-align: right;
+}
+
+.modal-content ul {
+    align-content: flex-end;
+    text-align: right;
+}
+
+#flat-button {
+    color: #1b91fb;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    padding: 6px 10px;
+    border: 1px solid #1b91fb;
+    margin: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#flat-button:hover {
+    background-color: deepskyblue;
+    color: #222;
+}
+
+button {
+    background-color: rgba(128, 128, 128, 1);
+}
+
+div {
+    opacity: 1;
+}
+
+button span {
+    background-color: rgba(128, 128, 128, 0);
+    color: ghostwhite;
+}
+
+#work {
+    margin-right: 47px;
+    padding-top: 3px;
+}
+
+#about {
+    margin-right: 9px;
+    margin-top: -15px;
+}
+
+#contact {
+    margin-right: 32px;
+}
+
+.contact {
+    top: 35%;
+    position: absolute;
+    width: 500px;
+    align-content: center;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    position: absolute;
+    margin-top: -120px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: ghostwhite;
+    font-size: 7rem;
+    padding: auto;
+    letter-spacing: 6px;
+    width: 100%;
+}
+
+.contact div {
+    display: none;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    background: transparent;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    color: white;
+    border-radius: 0;
+    border: none;
+    background-color: #333333;
+}
+
+input:-webkit-autofill {
+    background-color: #333333!important;
+    background: #333333!important;
+    color: white!important;
+}
+
+input {
+    padding-bottom: 50px;
+    margin-bottom: 20px!important;
+}
+
+.s1,
+.s2,
+.s3 {
+    background-color: #1b91fb;
+    height: 2px;
+    position: absolute;
+    margin-top: -21px;
+    width: 0%;
+    transition: 0.5s ease;
+}
+
+.s3 {
+    margin-top: -21px;
+}
+
+.s3:focus {
+    width: 100%;
+}
+
+input[type="text"]:focus+.s1 {
+    width: 100%;
+}
+
+input[type="email"]:focus+.s2 {
+    width: 100%;
+}
+
+textarea:focus+.s3 {
+    width: 100%;
+}
+
+input[type="text"]:invalid+.s2 {
+    background-color: #FF0051;
+}
+
+input[type="email"]:invalid+.s2 {
+    background-color: #FF0051;
+}
+
+textarea:invalid+.s3 {
+    background-color: #FF0051;
+}
+
+label {
+    color: ghostwhite;
+}
+
+#rotate {
+    z-index: -1000;
+    display: none;
+}
+
+textarea {
+    height: 150px;
+}
+
+#rectangle {
+    stroke-dashoffset: -24;
+    stroke-dasharray: 36;
+    transition: all 0.5s linear;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+@keyframes move {
+    from {
+        stroke-dashoffset: -24;
+    }
+    to {
+        stroke-dashoffset: -10;
+    }
+}
+
+#submit:hover #rectangle {
+    stroke-dashoffset: -12;
+}
+
+#submit {
+    padding-left: 0;
+    padding-top: 8px;
+    width: 120px;
+    border: none;
+    background: transparent;
+}
+
+#submit svg {
+    width: 100%;
+}
+
+#home svg,
+#work svg,
+#skills svg,
+#about svg {
+    cursor: pointer;
+}
+
+.noise1 {
+    animation: glitch1 3s infinite linear alternate-reverse;
+    left: 1px;
+    text-shadow: 3px 0 #1b91fb;
+}
+
+.noise2 {
+    animation: glitch2 2s infinite linear alternate-reverse;
+    left: -1px;
+    text-shadow: -3px 0 #1b91fb;
+}
+
+@keyframes glitch1 {
+    0% {
+        clip: rect(68px, 9999px, 76px, 0)
+    }
+    5% {
+        clip: rect(24px, 9999px, 1px, 0)
+    }
+    10% {
+        clip: rect(98px, 9999px, 13px, 0)
+    }
+    15% {
+        clip: rect(59px, 9999px, 80px, 0)
+    }
+    20% {
+        clip: rect(100px, 9999px, 77px, 0)
+    }
+    25% {
+        clip: rect(20px, 9999px, 32px, 0)
+    }
+    30% {
+        clip: rect(31px, 9999px, 35px, 0)
+    }
+    35% {
+        clip: rect(47px, 9999px, 75px, 0)
+    }
+    40% {
+        clip: rect(26px, 9999px, 73px, 0)
+    }
+    45% {
+        clip: rect(22px, 9999px, 12px, 0)
+    }
+    50% {
+        clip: rect(21px, 9999px, 44px, 0)
+    }
+    55% {
+        clip: rect(36px, 9999px, 18px, 0)
+    }
+    60% {
+        clip: rect(10px, 9999px, 74px, 0)
+    }
+    65% {
+        clip: rect(73px, 9999px, 11px, 0)
+    }
+    70% {
+        clip: rect(16px, 9999px, 50px, 0)
+    }
+    75% {
+        clip: rect(71px, 9999px, 43px, 0)
+    }
+    80% {
+        clip: rect(27px, 9999px, 81px, 0)
+    }
+    85% {
+        clip: rect(87px, 9999px, 27px, 0)
+    }
+    90% {
+        clip: rect(49px, 9999px, 19px, 0)
+    }
+    95% {
+        clip: rect(33px, 9999px, 16px, 0)
+    }
+    100% {
+        clip: rect(80px, 9999px, 95px, 0)
+    }
+}
+
+@keyframes glitch2 {
+    0% {
+        clip: rect(58px, 9999px, 97px, 0)
+    }
+    5% {
+        clip: rect(26px, 9999px, 16px, 0)
+    }
+    10% {
+        clip: rect(62px, 9999px, 42px, 0)
+    }
+    15% {
+        clip: rect(59px, 9999px, 100px, 0)
+    }
+    20% {
+        clip: rect(74px, 9999px, 39px, 0)
+    }
+    25% {
+        clip: rect(9px, 9999px, 56px, 0)
+    }
+    30% {
+        clip: rect(32px, 9999px, 54px, 0)
+    }
+    35% {
+        clip: rect(95px, 9999px, 74px, 0)
+    }
+    40% {
+        clip: rect(65px, 9999px, 23px, 0)
+    }
+    45% {
+        clip: rect(36px, 9999px, 13px, 0)
+    }
+    50% {
+        clip: rect(42px, 9999px, 2px, 0)
+    }
+    55% {
+        clip: rect(11px, 9999px, 76px, 0)
+    }
+    60% {
+        clip: rect(99px, 9999px, 7px, 0)
+    }
+    65% {
+        clip: rect(51px, 9999px, 17px, 0)
+    }
+    70% {
+        clip: rect(55px, 9999px, 88px, 0)
+    }
+    75% {
+        clip: rect(65px, 9999px, 57px, 0)
+    }
+    80% {
+        clip: rect(11px, 9999px, 48px, 0)
+    }
+    85% {
+        clip: rect(95px, 9999px, 59px, 0)
+    }
+    90% {
+        clip: rect(11px, 9999px, 29px, 0)
+    }
+    95% {
+        clip: rect(40px, 9999px, 82px, 0)
+    }
+    100% {
+        clip: rect(46px, 9999px, 67px, 0)
+    }
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#mapc {
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.loader-wrapper {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+}
+
+.loader svg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media (max-width:800px) {
+    #logo a {
+        margin-left: -50% !important;
+    }
+}
+
+input {
+    text-decoration: none;
+    position: relative;
+}
+
+@media (max-width:700px) {
+    .squares div {
+        margin-left: 49px;
+    }
+    .contact {
+        width: 400px;
+    }
+    #logo a {
+        margin-left: -50% !important;
+    }
+    #mapc {
+        width: 95%;
+        height: 400px;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        position: absolute;
+    }
+    h1 {
+        font-size: 6.5rem;
+    }
+}
+
+@media (max-width:451px) {
+    h1 {
+        font-size: 4rem;
+        margin-top: -70px;
+    }
+    .contact {
+        width: 95%;
+        top: 189px;
+    }
+    #logo a {
+        margin-left: -50% !important;
+    }
+    .loader svg {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 400px;
+        margin-left: -20px;
+    }
+    #alert {
+        bottom: 0;
+        top: 16%;
+    }
+    #alert2 {
+        bottom: 0;
+        top: 16%;
+    }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+    #rotate {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #222;
+        opacity: 1;
+        z-index: 999999999;
+        display: block;
+        top: 0;
+    }
+    #rotate img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #hi {
+        display: none;
+    }
+}
