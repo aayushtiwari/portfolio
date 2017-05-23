@@ -212,7 +212,7 @@ h2 {
 .modal-dialog {
     margin: 0;
     height: 50%;
-    width: 300px;
+    width: 100px;
     float: right;
 }
 
@@ -227,7 +227,7 @@ h2 {
     -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
     border: none;
-    width: 300px;
+    width: 207px;
     float: right;
 }
 
@@ -364,6 +364,7 @@ p {
 
 #log3 {
     background-color: #F39C12;
+    cursor: pointer;
 }
 
 #log4 {
@@ -371,14 +372,13 @@ p {
     padding: 0px!important;
     padding-left: 15px!important;
     padding-top: 25px!important;
+     cursor: pointer;
 }
 
-#log4 img {
-    width: 50px;
-}
 
 #log5 {
     background-color: #8E44AD;
+    cursor: pointer;
 }
 
 #log7 {
@@ -636,6 +636,7 @@ p {
     #log5 {
         display: inline-block!important;
         margin-left: 100px;
+
     }
     #hi {
         margin-left: 50px;

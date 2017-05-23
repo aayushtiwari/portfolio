@@ -35,9 +35,10 @@ $("#logo a img").hover(function () {
     });
 });
 $("#wheel").on('focus', () => {
-    $(".modal-open h1").css('opacity', '0.2');
+    $("#scene").css('opacity', '0.2');
+    
 });
 $("#wheel").on('focusout', () => {
-    $("#intro h1").css('opacity', '1');
-    console.log('done');
-});
+    $("#scene").css('opacity', '1');
+     
+     });

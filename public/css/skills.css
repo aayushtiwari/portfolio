@@ -182,7 +182,7 @@ body {
 .modal-dialog {
     margin: 0;
     height: 50%;
-    width: 300px;
+    width: 100px;
     float: right;
 }
 
@@ -197,7 +197,7 @@ body {
     -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
     border: none;
-    width: 300px;
+    width: 207px;
     float: right;
 }
 
@@ -378,7 +378,7 @@ button span {
     top:33%;
     margin-left: 18%;
     color: deepskyblue;
-    z-index: 2000;
+    z-index: 1;
    width:50%;
 }
 
@@ -388,7 +388,7 @@ button span {
     font-size: 2rem;
     margin-bottom: 10px;
     padding-left: 5%;
-    width: 100%;
+    width: 50%;
 }
 
 #Experience h1 {
@@ -593,7 +593,7 @@ span5{
     top: 0;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 106vh;
     background: #222;
     z-index: 99999999999999;
 }
@@ -786,10 +786,10 @@ button {
     }
     #skillset {
         display: inline-block;
-        opacity: 0.6;
+        opacity: 1;
         width: 70%;
-        top: 57%;
         margin-right: -12%;
+        top:37vh;
     }
     #bottom {
         bottom: 70px;

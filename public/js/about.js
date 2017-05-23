@@ -33,4 +33,11 @@ $("#logo a img").hover(function () {
     $(this).removeClass().addClass('rubberBand animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
         $(this).removeClass();
     });
+});$("#wheel").on('focus', () => {
+    $("#scene").css('opacity', '0.2');
+    
 });
+$("#wheel").on('focusout', () => {
+    $("#scene").css('opacity', '1');
+     
+     });

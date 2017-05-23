@@ -50,9 +50,10 @@ $("#d1d").hover(() => {
 
 
 $("#wheel").on('focus', () => {
-    $("#show").css('opacity', '0.1');
+    $("#scene").css('opacity', '0.2');
+    
 });
 $("#wheel").on('focusout', () => {
-    $("#show").css('opacity', '1');
-    console.log('done');
-});
+    $("#scene").css('opacity', '1');
+     
+     });

@@ -151,7 +151,7 @@ overflow: hidden;
 .modal-dialog {
     margin: 0;
     height: 50%;
-    width: 300px;
+    width: 100px;
     float: right;
     background-color: #181D27;
     background-color: rgba(128, 128, 128, 0);
@@ -172,7 +172,7 @@ overflow: hidden;
     -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
     border: none;
-    width: 300px;
+    width: 207px;
     float: right;
 }
 
@@ -252,7 +252,7 @@ button span {
     top: 0;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 106vh;
     background: #222;
     z-index: 99999999999999;
 }

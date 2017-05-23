@@ -149,10 +149,11 @@ function rclick() {
     $(`#i${x-1}`).removeClass('animated bounceIn');
 }
 $("#wheel").on('focus', () => {
-    $(".modal-open #Experience p").css('color', 'grey');
-    $("span3").css('color', 'grey');
+    $("#scene").css('opacity', '0.2');
+    
 });
 $("#wheel").on('focusout', () => {
-    $("#Experience p").css('color', 'ghostwhite');
-     $("span3").css('color', 'ghostwhite');
-});
+    $("#scene").css('opacity', '1');
+     
+     });
+
