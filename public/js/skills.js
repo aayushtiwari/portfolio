@@ -82,7 +82,29 @@ $('#leftb button').on('click', () => {
             x--;
             bcd();
             lclick();
+            clearInterval(timer);
         })(x);
+       timer= setInterval(
+    () => {
+        if (x !== 10) {
+            (() => {
+                x++;
+                abc();
+                rclick();
+                console.log('working');
+            })(x);
+        }
+        else {
+            (() => {
+                $(`#names`).css('top', '50px');
+                $('#i10').css('opacity', '0');
+                $(`#i10`).removeClass('animated bounceIn');
+                x = 1;
+                abc();
+                rclick();
+            })(x);
+        }
+    }, 5000);
     }
 });
 $('#rightb button').on('click', () => {
@@ -91,10 +113,33 @@ $('#rightb button').on('click', () => {
             x++;
             abc();
             rclick();
+            clearInterval(timer);
         })(x);
-    }
+        timer= setInterval(
+    () => {
+        if (x !== 10) {
+            (() => {
+                x++;
+                abc();
+                rclick();
+                console.log('working');
+            })(x);
+        }
+        else {
+            (() => {
+                $(`#names`).css('top', '50px');
+                $('#i10').css('opacity', '0');
+                $(`#i10`).removeClass('animated bounceIn');
+                x = 1;
+                abc();
+                rclick();
+            })(x);
+        }
+    }, 5000);
+}
 });
-setInterval(
+
+var timer= setInterval(
     () => {
         if (x !== 10) {
             (() => {
@@ -156,4 +201,5 @@ $("#wheel").on('focusout', () => {
     $("#scene").css('opacity', '1');
      
      });
+
 
